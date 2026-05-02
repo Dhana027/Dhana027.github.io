@@ -19,7 +19,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --background-color: #fffde2; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #37517e; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #47b2e4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #37517e;
+  --background-color: #174873;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #4668a2;
@@ -214,7 +214,7 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: rgba(40, 58, 90, 0.9);
+  --background-color: rgba(20, 48, 95, 0.9);
 }
 
 /*--------------------------------------------------------------
@@ -1499,7 +1499,7 @@ section,
   bottom: -100%;
   z-index: 3;
   transition: all ease-in-out 0.5s;
-  background: color-mix(in srgb, var(--background-color), transparent 10%);
+  background: color-mix(in srgb, var(--surface-color), transparent 10%);
   padding: 15px;
 }
 
@@ -2200,7 +2200,7 @@ section,
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+  background-color: color-mix(in srgb, var(--surface-color), transparent 50%);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
